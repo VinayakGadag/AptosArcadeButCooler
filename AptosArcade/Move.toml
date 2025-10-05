@@ -1,0 +1,15 @@
+[package]
+name = "aptosArcade"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xe2b1b4f066730f337930a8beacebaea30343820f95844de086a61fe4601bc046"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
